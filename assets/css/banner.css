@@ -1,0 +1,69 @@
+.banner {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  
+
+  width: 100%;
+  height: 352px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 41.15%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(../img/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid var(--cor--titulo);
+}
+
+.banner__promocao {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 1136px;
+  height: 170px;
+}
+
+.banner__promocao--titulo {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.banner__promocao--descricao {
+  color: antiquewhite;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.banner__btn {
+  background-color: var(--cor--background);
+  width: 160px;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.banner__btn:hover {
+  background-color: var(--cor--titulo);
+}
+
+.banner__btn a {
+  color: var(--cor--titulo);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.banner__btn a:hover {
+  color: var(--cor--background);
+}
+
+

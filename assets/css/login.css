@@ -1,0 +1,155 @@
+.card--login {
+  width: 100%;
+
+  margin-top: 100px;
+  padding-top: 2rem;
+
+  padding-bottom: 2rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 423px;
+  height: 291px;
+}
+
+.login--titulo {
+  font-family: var(--font--titulo);
+  color: var(--cor--titulo);
+  width: 231px;
+  height: 40px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.login--input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 53px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 2px solid var(--cor--titulo);
+}
+
+.login--input::placeholder {
+  color: var(--cor--background);
+}
+
+.login--btn {
+  color: var(--cor--titulo);
+  font-family: var(--font--titulo);
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: var(--cor--background);
+  width: 350px;
+  height: 53px;
+  border-radius: 16px;
+  border: 2px solid var(--cor--titulo);
+}
+
+.login--btn:hover {
+  background-color: var(--cor--titulo);
+  color: var(--cor--background);
+  font-size: 1.6rem;
+  width: 365px;
+  height: 60px;
+}
+
+/*FOOTER*/
+
+.rodape {
+  border-top: 0.2px solid var(--cor--titulo);
+  position: relative;
+  bottom: 0;
+  padding-top: 2rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rodape__conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1136px;
+  height: 240px;
+  padding: 0px;
+}
+
+.rodape__logo {
+  width: 200px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.rodape__logo--img {
+  width: 8rem;
+}
+
+.rodape__logo--titulo {
+  font-family: var(--font--titulo);
+  font-size: 1.2rem;
+  color: var(--cor--titulo);
+}
+
+.rodape__menu ul {
+  color: var(--cor--titulo);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 176px;
+  height: 234px;
+}
+
+.rodape__menu--item a {
+  color: var(--cor--titulo);
+  font-size: 1rem;
+}
+
+.rodape__menu--item a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.rodape__desenvolvido {
+  margin-top: 1rem;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border-top: 0.5px solid var(--cor--titulo);
+  background: var(--cor--background);
+}
+em {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 1rem;
+  color: var(--cor--titulo);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  color: var(--cor--titulo);
+}

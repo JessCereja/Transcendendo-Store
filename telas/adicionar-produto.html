@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/adicionarProduto.css">
+    <title>Adicionar Produto</title>
+</head>
+<body>
+    <!--------------------------------->
+    <!------------ HEADER ------------->
+    <!--------------------------------->
+
+    <header class="cabecalho">
+      <div class="cabecalho__esquerda">
+        <img
+          src="../assets/img/logo_transcendendo.svg"
+          alt="logo Transcendedo Store"
+          class="cabecalho__esquerda--logo"
+        />
+        <h1 class="cabecalho__esquerda--titulo">Transcendendo</h1>
+      </div>
+      <div class="cabecalho__pesquisa">
+        <input
+          class="cabecalho__pesquisa--input"
+          type="text"
+          placeholder="O que deseja encontrar ?"
+        />
+        <button class="cabecalho__pesquisa--btn">
+          <a href="#" class="cabecalho__pesquisa--btnlink"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </button>
+      </div>
+    </header>
+
+    <!--------------------------------->
+    <!------- Adicionar Produtos ------>
+    <!--------------------------------->
+
+    <main class="container__adiciona">
+			<form class="container__itens" data-form>
+				<h2 class="adiciona__titulo">Adicionar novo produto</h2>
+				<div class="container__input">
+					<input type="text" class="input__produto"
+						placeholder="URL da imagem"
+						required>
+					<label class="label__produto">URL da imagem</label>
+				</div>
+				<div class="container__input">
+					<input type="text" class="input__produto"
+						placeholder="Nome do produto"
+						required>
+					<label class="label__produto">Nome do produto</label>
+				</div>
+				<div class="container__input">
+					<input type="text" class="input__produto"
+						placeholder="Categoria" 					
+						required>
+					<label class="label__produto">Categoria</label>
+				</div>
+				<div class="container__input">
+					<input type="text" class="input__produto" 
+						placeholder="Preço do produto" 					
+						required>
+					<label class="label__produto">Preço do produto</label>
+				</div>
+				<div class="container__input">
+					<input type="text" class="input__descricao" 
+						placeholder="Descrição produto"
+						required>
+					<label class="label__produto">Descrição do produto</label>
+				</div>
+				<button type="submit" class="adiciona__btn">Adicionar produto</button>
+			</form>
+		</main>
+
+    <!--------------------------------->
+    <!------------ FOOTER ------------->
+    <!--------------------------------->
+    
+    <footer class="rodape">
+        <div class="rodape__conteudo container">
+            <div class="rodape__logo">
+                <img src="../assets/img/logo_transcendendo.svg" alt="logo Transcendedo Store" class="rodape__logo--img">
+                <h1 class="rodape__logo--titulo">Transcendendo</h1>
+            </div>
+            <div class="rodape__menu">
+            <ul>
+                <li class="rodape__menu--item"><a href="#" class="rodape__menu--link">Quem somos</a></li>
+                <li class="rodape__menu--item"><a href="#" class="rodape__menu--link">Programa de fidelidade</a></li>
+                <li class="rodape__menu--item"><a href="#" class="rodape__menu--link">Nossas lojas</a></li>                    
+                <li class="rodape__menu--item"><a href="#" class="rodape__menu--link">Politica de privacidade</a></li>
+                <li class="rodape__menu--item"><a href="#" class="rodape__menu--link">Quero ser franqueado</a></li>
+                <li class="rodape__menu--item">
+                    <a href="#" class="rodape__menu--link">Anuncie aqui</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class="rodape__desenvolvido">
+            <em>Copyright © 2022 | JéssicaCereja &#127826</em>
+            <div class="links">
+                <a class="logo" href="https://www.linkedin.com/in/jessica-c-santos/" target="_blank"   >
+                <i class="logo-img fa-brands fa-linkedin"></i>
+                </a>
+
+                <a class="logo" href="https://github.com/JessCereja/" target="_blank">
+                <i class="logo-img fa-brands fa-square-github"></i>
+                </a>
+            </div>
+        </div> 
+    </footer></div>
+    <script src="https://kit.fontawesome.com/f7115d9ac5.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
